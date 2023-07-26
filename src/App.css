@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Movie-div{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 14px;
+  gap: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Movie-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.Movie-div img{
+  width: 100%;
+  height: 220px;
+}
+
